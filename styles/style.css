@@ -20,6 +20,7 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 
 /* top players styles */
@@ -60,6 +61,13 @@ hr {
 /* ------------------
 top blogs styles  
 ---------------------*/
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
 .blog {
     display: flex;
 
@@ -76,6 +84,7 @@ top blogs styles
 
 .blog-title {
     font-size: 20px;
+    
 }
 .blog-author{
     color: #9F9F9F;
